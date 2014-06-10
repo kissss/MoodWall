@@ -1,0 +1,15 @@
+<% if (!user) { %>
+<div class="hero-unit">
+    <h1>欢迎来到心情墙</h1>
+
+    <p>任何人都可以在这里发心情哟。</p>
+
+    <p>
+        <a class="btn btn-primary btn-large" href="/login">登录</a>
+        <a class="btn btn-large" href="/reg">立即注册</a>
+    </p>
+</div>
+<% } else { %>
+<%- partial('say') %>
+<% } %>
+<%- partial('posts') %> 

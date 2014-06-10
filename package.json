@@ -1,0 +1,16 @@
+{
+    "name": "moodwall",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "2.5.11",
+        "jade": "*",
+        "ejs": "0.8.4",
+        "connect-mongo": ">=0.1.7",
+        "mongoose": "3.8.7",
+        "moment": "*"
+    }
+}
